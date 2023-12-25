@@ -1,0 +1,12 @@
+{
+    "name": "Searchbar for ChatGPT",
+    "version": "1.0.0",
+    "description": "Adds a searchbar to ChatGPT",
+    "manifest_version": 3,
+    "author": "Tines Valen",
+    "content_scripts":[{
+        "matches": ["*://chat.openai.com/*"],
+        "js": ["script.js"],
+        "css": ["styles.css"]
+    }]
+}

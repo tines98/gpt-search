@@ -1,0 +1,15 @@
+#searchContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#searchBar {
+    color: #eaeaef;
+    background-color: #343541;
+    width: 100%;
+    border-radius: 0.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
